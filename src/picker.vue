@@ -210,8 +210,8 @@ export default Vue.extend({
   },
 
   mounted () {
-    document.addEventListener('mousedown', this.touchstart as EventListener);
-    document.addEventListener('mouseup', this.touchend as EventListener);
+    // document.addEventListener('mousedown', this.touchstart as EventListener);
+    // document.addEventListener('mouseup', this.touchend as EventListener);
 
     // Move to the initial value
     this.moveTo(this.selectedIndex);
